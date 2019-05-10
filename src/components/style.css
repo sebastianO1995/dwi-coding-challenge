@@ -1,0 +1,76 @@
+.banner{
+  border-bottom: solid 2px #d7182a;
+  margin-bottom:1rem;
+}
+
+.banner::before{
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-left: 8px solid #d7182a;
+  border-bottom: 13px solid transparent;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 65px;
+}
+
+.banner::after{
+  display: block;
+    width: 65px;
+    height: 26px;
+    content: "Step " counter(section);
+    counter-increment: section;
+    padding: 0 3px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d7182a;
+    font-size: 18.5px;
+}
+
+.prompt{
+  padding-left:70px;
+  font-weight:bold;
+  color:#d7182a;
+}
+
+a{
+  color: #0274a9;
+  margin-left: 1rem;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.description{
+  margin: 10px 10px;
+}
+.label{
+  margin-left:1rem;
+}
+
+.status{
+  margin-top:.5rem;
+}
+.ctMessage{
+  margin:10px 10px;
+  color:#8a6d3b;
+  clear: both;
+  padding: 8px 35px 8px 14px;
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  border-radius: 4px;
+}
+.error{
+  color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    padding: 8px 35px 8px 14px;
+    margin:10px 10px;
+}

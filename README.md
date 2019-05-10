@@ -1,6 +1,6 @@
 # dwi-coding-challenge
 
-This is my solution to the coding challenge by Direct Wines, Inc
+This is my solution to the coding challenge by Direct Wines, Inc. Using REACT, React Bootstrap.
 Make sure to have the latest version of node. In your command line, enter the following commands:
 ```bash
 # To install dependencies
